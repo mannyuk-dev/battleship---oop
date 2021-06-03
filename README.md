@@ -40,3 +40,10 @@ Player vs Player – Same concept as above except none of the boats are auto pla
 - Self-explanaory names for readability
 - commenting code for re-usability and readablitity
 - Seperating classes into different files
+
+## code review
+Project was built using a battleship boilerplate - https://github.com/mike-ada/AdaShip-version-1
+
+Instead of using a 2d array for the board, a an index is used to identify a specific coordinate on the board.
+
+
