@@ -1,3 +1,7 @@
+## Demo
+
+https://replit.com/@mannydev/sh1111pppspspps#board.cpp
+
 ## summary
 
 This game is implemented in C++ object-oriented programming.  Contains classes and objects and other object-oriented programming implementations.  A prototype of the Battleship game.
@@ -16,6 +20,7 @@ The types include:
 - Submarine 
 - Patrol
 
+![image](https://user-images.githubusercontent.com/56549229/120639380-2f5a7680-c469-11eb-84ea-02bbd6276af3.png)
 
 Exceptions are handled successfully in the game to prevent the user from entering outrageous figures/numbers in the game. 
 The next interface is the game where the game is played.
@@ -67,5 +72,12 @@ consequently, prompting the user to giver another input. Once a a successfful co
 This is a resuable function for placing as many differnet players' ships in the game.
 
 ![image](https://user-images.githubusercontent.com/56549229/120637821-44cea100-c467-11eb-8200-e3ef3d7dc87d.png)
+
+
+Different ship names can be given and each name will be rendered alongside it's length
+
+
+
+
 
 
