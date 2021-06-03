@@ -46,4 +46,7 @@ Project was built using a battleship boilerplate - https://github.com/mike-ada/A
 
 Instead of using a 2d array for the board, a an index is used to identify a specific coordinate on the board.
 
+<img width="204" alt="code5" src="https://raw.githubusercontent.com/mannyuk-dev/battleship---oop/main/2021-06-03%2012_06_33-coordinates.cpp%20-%20AdaShip-version-1-main%20-%20Visual%20Studio%20Code.png">
+
+
 
