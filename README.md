@@ -44,9 +44,10 @@ Player vs Player – Same concept as above except none of the boats are auto pla
 ## code review
 Project was built using a battleship boilerplate - https://github.com/mike-ada/AdaShip-version-1
 
-Instead of using a 2d array for the board, a an index is used to identify a specific coordinate on the board.
+Instead of using a 2d array for the board, a an index is used to identify a specific coordinate on the board. The board is created using the configuration file - ada_config.ini
+The width of the board is used alongside the index to determine the rol and column. The division of idx and witdth is the row and the remainder is the column
 
 <img alt="code5" src="https://raw.githubusercontent.com/mannyuk-dev/battleship---oop/main/2021-06-03%2012_06_33-coordinates.cpp%20-%20AdaShip-version-1-main%20-%20Visual%20Studio%20Code.png">
 
-
+To identify wheter a coordinate has already been hit, a simple function is used. if a coordinate is not hit, is marked as Available. This helps us differentiate what has been hit and what hasn't been hit
 
