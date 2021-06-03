@@ -56,9 +56,16 @@ To identify wheter a coordinate has already been hit, a simple function is used.
 The game flow is very easy to understand. When a user selects a game mode, the value is stored and used in a switch statement to select the game type, the game is then initialised using the intitgame function/method which takes two arguments - config file and the game mode selected. This is used to set up the game as requested by the user.
 on line 467 the player's boat is rendered in the console and then they are asked where they'd like to place their boats on line 469
 
-![image](https://user-images.githubusercontent.com/56549229/120637548-f5887080-c466-11eb-824e-afa742d2d8e5.png)
+![image](https://user-images.githubusercontent.com/56549229/120637652-13ee6c00-c467-11eb-8844-08273f31e1f1.png)
 
 
+Inside the placeplayerboats method - First parameter takes boats specified from the config file. player type is received from the second parameter.
+If a player gives their cordinate a check is done to make sure the cordinate is not occupied. if it is, the function setboardtile_state returns -1
+consequently, prompting the user to giver another input. Once a a successfful coordinate is given the while loop flag is switched to VALID, resulting in the loop breaking. Another do while loop is used to place the direction of the boat. Again. if the response is -1 then loop starts over again. Once the while loops are done, the code repeats the process for the next boat using the for loop.
 
+
+This is a resuable function for placing as many differnet players' ships in the game.
+
+![image](https://user-images.githubusercontent.com/56549229/120637821-44cea100-c467-11eb-8200-e3ef3d7dc87d.png)
 
 
