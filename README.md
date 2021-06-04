@@ -42,7 +42,7 @@ Player vs Player – Same concept as above except none of the boats are auto pla
 ## object-oriented design ideas and plan
 - Not repeating lines of wherever possible. ie. using a DRY approach
 - Breaking down requirements into classes and objects
-- Self-explanaory names for readability
+- Self-explanatory names for readability
 - commenting code for re-usability and readablitity
 - Seperating classes into different files
 
